@@ -16,6 +16,25 @@ Compatible with `Vundle`, `Pathogen`, `Vim-plug`.
 
 Map | Command | Action
 --- | ------- | ------
-**ghj** | :NsOpenViewJS | Jump to the JS of the current view file
-**ghc** | :NsOpenViewCSS | Jump to the CSS of the current view file
-**ghx** | :NsOpenViewXML | Jump to the XML of the current view file
+**ghj** | :NsOpenViewJS | Jump to the JS of the current view
+**ghc** | :NsOpenViewCSS | Jump to the CSS of the current view
+**ghx** | :NsOpenViewXML | Jump to the XML of the current view
+
+
+## Configuration
+
+### Mappings
+
+You can disable the predefined mappings with:
+
+```vim
+let g:nativescript_disable_maps = 1
+```
+
+And then add your own like:
+
+```vim
+nnoremap <leader>j :NsOpenViewJS<CR>
+nnoremap <leader>c :NsOpenViewCSS<CR>
+nnoremap <leader>x :NsOpenViewXML<CR>
+```
