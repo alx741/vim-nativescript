@@ -3,6 +3,6 @@ if exists("b:did_ftplugin")
 endif
 let b:did_ftplugin = 1
 
-nnoremap ghc :call nativescript#OpenViewCSS()<CR>
-nnoremap ghj :call nativescript#OpenViewJS()<CR>
-nnoremap ghx :call nativescript#OpenViewXML()<CR>
+nnoremap ghc :NsOpenViewCSS<CR>
+nnoremap ghj :NsOpenViewJS<CR>
+nnoremap ghx :NsOpenViewXML<CR>
