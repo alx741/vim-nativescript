@@ -16,6 +16,6 @@ Compatible with `Vundle`, `Pathogen`, `Vim-plug`.
 
 Map | Command | Action
 --- | ------- | ------
-**ghj** | :nativescript#OpenViewJS | Jump to the JS of the current view file
-**ghc** | :nativescript#OpenViewCSS | Jump to the CSS of the current view file
-**ghx** | :nativescript#OpenViewXML | Jump to the XML of the current view file
+**ghj** | :NsOpenViewJS | Jump to the JS of the current view file
+**ghc** | :NsOpenViewCSS | Jump to the CSS of the current view file
+**ghx** | :NsOpenViewXML | Jump to the XML of the current view file
